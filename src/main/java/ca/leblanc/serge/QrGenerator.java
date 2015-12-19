@@ -28,24 +28,6 @@ public class QrGenerator {
      */
     public static void main(String[] args) {
         QRGenUi form = new QRGenUi();
-
-        /*String URL = "";
-        while (!URL.equals("exit")) {
-
-            Scanner scanner = new Scanner(System.in);
-
-            System.out.println("Hello Enter your URL: ");
-
-            URL = scanner.nextLine();
-
-            if (URL.equals("exit"))
-                break;
-
-            System.out.println("URL is: " + URL);
-            generateQR(URL);
-
-        }*/
-
     }
 
     /**
@@ -85,6 +67,5 @@ public class QrGenerator {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("Your QR code has been created under the name: "+uniqueID);
     }
 }
