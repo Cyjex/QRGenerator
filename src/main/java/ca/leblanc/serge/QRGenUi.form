@@ -92,7 +92,6 @@
             <item value="black"/>
             <item value="red"/>
             <item value="green"/>
-            <item value="silver"/>
             <item value="gray"/>
           </model>
         </properties>
